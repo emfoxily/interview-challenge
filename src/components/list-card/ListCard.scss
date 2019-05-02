@@ -1,0 +1,24 @@
+$gray: #e8e8e8;
+$darkgray: #0c0c0c;
+$white: #ffffff;
+$black: #000000;
+
+.list-card {
+    border-radius: 10px;
+    border: 1px solid $black;
+    box-shadow: 4px 5px 4px $black;
+    width: 328px;
+    min-height: 320px;
+}
+
+.list-card h1 {
+    font-size: 36px;
+    color: $darkgray;
+    background-color: $gray;
+    height: 105px;
+    text-align: center;
+}
+
+.list-card ul {
+    padding: 20px;
+}
